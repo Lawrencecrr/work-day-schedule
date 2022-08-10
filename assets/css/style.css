@@ -1,0 +1,20 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 2;
+}
+
+:root {
+    --primary: #53B6FF;
+    --secondary: #383838;
+    --light: #FFFFFF;
+    --dark: #000000;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: var(--secondary);
+    color: var(--primary);
+    border-radius: 0;
+    border-bottom: 15px solid var(--primary);
+}

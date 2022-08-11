@@ -188,7 +188,7 @@ $("#save17").on("click", "i.fa-save", function () {
 // This function runs but the time is never refreshed?
 setInterval(function () {
     $(".event-group .events").each(function (index, el) {
-        auditTime(el);
+        addTime(el);
         //console.log(currentTime);
     });
 

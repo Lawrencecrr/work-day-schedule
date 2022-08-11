@@ -2,6 +2,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     line-height: 2;
+    background-color: var(--secondary);
 }
 
 :root {
@@ -13,8 +14,8 @@ body {
 
 .jumbotron {
     text-align: center;
-    background-color: var(--secondary);
-    color: var(--primary);
+    background-color: var(--primary);
+    color: var(--secondary);
     border-radius: 0;
-    border-bottom: 15px solid var(--primary);
+    border-bottom: 15px solid var(--light);
 }
